@@ -7,7 +7,7 @@ using namespace std;
 #define N 65536 //fixed the size of the vectors
 
 int main() {
-omp_set_num_threads(16);
+omp_set_num_threads(1);
 vector<double> X(N), Y(N); //double precision vectors
 double a = 2.5;
 
